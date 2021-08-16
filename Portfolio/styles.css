@@ -2,9 +2,9 @@ body{
 		background-color: lightyellow;
 		color: darkgreen;
 		}
-		header
+		header, footer
 		{
-		background-color: indianred;
+		background-color: lightblue;
 		color: white
 		}
 		.artclass
