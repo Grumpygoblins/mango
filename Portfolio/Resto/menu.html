@@ -5,12 +5,45 @@
 <html>
 	<head>
 		<title>Restaurant</title>
+		<link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<style>
+			caption {
+			font-weight: bold;
+			font-size: 1.2em;
+			margin-bottom: 8px;
+			}
+
+
+
+			table, th, td {
+    border: 1px solid #0d1f2d;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+
+table {
+    width: 90%;
+    margin: auto;
+}
+
+tr {
+    height: 30px;
+    color: 000;
+
+}
+tr:nth-child(odd) {
+    background-color: #e4c3ad;
+}
+		</style>
 	</head>
 	
 	<body>
 		<p>Menu</p>
 		<hr/><!--color adjustment and circles-->
-		<header> Restaurant<header>
+		<header>
+
+			<h1><em>Giga Bites</em> </h1>
+		</header>
 		<hr/>
 			<nav>
 				<a href="home.html">Home</a>	<a href="contact.html">Contact</a>
@@ -20,18 +53,78 @@
 	
 	<section>
 		<table>
-			<tr>dish1<b> <br/> discription<td></td><td>dish2<b> <br/> discription</td><td>dish3<b> <br/> discription</td></tr>
-			<tr><td>dish4<b> <br/> discription</td><td>dish5<b> <br/> discription</td><td>dish6V</td></td>
-		</table>
+			<tbody>
+			<tr><td><h3><b>Antipasto Salad</b></h3> <br/> Mixed lettuce topped with salami,ham, mozzarella<br/>tomatoes,olives & pickled
+				vegetables with italian dressing.<br/> <em><b>Small 5.99 Large 9.89</b></em><img src="images/salad.jpg" alt="Salad picture"height="200" width="200"></td>
+				<td><h3><b>Foccacia</h3> <br/> Home-made Italian seasoned flat bread served with <br/>
+				marinara, olive oil & garlic.<br/> <em><b>4.99</b></em><img src="images/foccacia.jpg" alt="Bread picture"height="200" width="200"></td>
+				<td><h3><b> Bruschetta</b></h3><br/> Toasted bread topped with sun-dried tomato pesto,capers,<br/>fresh tomatoes,parmesan & melted mozzarella.<br/> <em><b>7.99</b></em><img src="images/bruschetta.jpg" alt="Bread picture"height="200" width="200"></td></tr>
+			<tr><td><h3><b>Vongole e Cozze Stuffato</h3> </b> <br/> Steamed Clams and mussles in garlic and white wine.<br/> <em><b>9.99</b></em><img src="images/clam.jpg" alt="Clam picture"height="200" width="200"></td>
+				<td><h3><b>Calamari </b></h3> <br/> Lightly floured squid, with a lemon pepper <br/>seasoning, fried golden brown and served with<br/>marinara sauce.<br/> <em><b>4.99</b></em><img src="images/calamari.jpg" alt="Calamari picture"height="200" width="200"></td>
+				<td><h3><b>Ravioli Fritte </b></h3><br/> Breaded and fried ravioli filled with ricotta, mozzarella<br/>and parmesan cheese, served with marinara.<br/> <em><b>7.29</b></em><img src="images/ravioli.jpg" alt="Ravioli picture"height="200" width="200"></td></tr>
+	</table>
 	</section>
+		<br/><br/>
+	<section>
+			<table>
+
+	<tbody>
+		<tr>
+		<td colspan="2">
+		<p><strong>Beverages</strong></p>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<p>Root Beer</p>
+		</td>
+		<td>
+		<p>$3.00</p>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<p>Bottled Water</p>
+		</td>
+		<td>
+		<p>$1.25</p>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<p>Lemonade</p>
+		</td>
+		<td>
+		<p>$1.00</p>
+		</td>
+		</tr>
+		<tr>
+		<td>
+		<p>Iced Tea</p>
+		</td>
+		<td>
+		<p>$1.25</p>
+		</td>
+		</tr>
+		</tbody>
+		</table>
+			</tbody>
+		</section>
+
 	
 	<hr/>
-		<p> street, city, state, zipcode </p>
-		<p>telephone number</p> <!-- change details-->
+		<footer>
+		<section>
+			<p> Morrison lane, Swancity, Ylati, 414231 </p>
+		<p>(902)9292292</p> <!-- change details-->
 			
 			
 			<p> Paragraph </p>
 		
 		</section>
-	</body>
+		</footer>
+	<style type="text/css">
+		body {
+		background-color: #d6d0bc;
+		}
 </html>

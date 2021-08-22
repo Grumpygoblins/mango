@@ -1,0 +1,67 @@
+/*
+Creator: Divya
+Date created: 16 August 2021
+Date last modified: 16 August 2021
+*/
+
+ body {
+  background: url(mango/Portfolio/images/bg.jpg);
+}
+
+body {
+
+    font-family: arial, helvetica, sans-serif;
+    color: #0d1f2d
+    max-width: 900px;
+    margin: 100px;
+}
+
+header, footer {background-color: #966e33;
+
+    color: #fef9ff;
+    height: 160px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
+ body {
+  background: url(images/bg.jpg);
+}
+h1 {
+    font-size: 2.5em;
+}
+nav {
+    class="badge-pill"
+    border-top: 3px dashed #546a7b;
+    border-bottom: 3px dashed #546a7b;
+    margin-top: 4px;
+    text-align: center;
+}
+form{
+    text-align: center;
+    }
+
+article {
+    margin-bottom: 16px;
+}
+nav a {
+    background-color: #332817;
+    color: #fef9ff;
+    padding: 8px;
+    border: thin solid #0d1f2d;
+    text-decoration: none;
+    display: block;
+    margin: 1% 50%;
+    width: 100px;
+
+}
+nav a:hover {
+    background-color: #fef9ff;
+    color: #5b7d87;
+}
+nav a:active {
+    font-weight: bold;
+}
+
+nav a:visited {
+    color: #e4c3ad;
+}
