@@ -11,7 +11,15 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="cara.js"></script>
-
+		<script>
+		   function validator(){
+			  if (document.getElementById("name").value.length > 0) {
+				 if (document.getElementById("email").value.length > 0){
+					if (document.getElementById("phone").value.length > 0){
+					   window.alert("Thanks we will contact you soon");
+					   }}}
+		   }
+       </script>
 
 	</head>
 	
@@ -21,7 +29,7 @@
 		<header>
 
 			<h1><em><b>Giga Bites</b></em> </h1>
-		</header>>
+		</header>
 
 		<hr/>
 			<nav>
@@ -30,15 +38,15 @@
 		
 		<hr/>
 	
-	<form>
+	<form onsubmit="return validator()">
 	   
-	  <b> Name:</b> <input type="text" name="mytextinput" required/>  * <br/>
+	  <b> Name:</b> <input type="text" id="name" name="mytextinput" required/>  * <br/>
 	   <br/>
 
-  <label for="mail">Email:</label>
-  <input type="email" id="mail" name="mail"> *<br/><br/>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="mail"> *<br/><br/>
 
-	   <b>Phone:</b> <input type="text" name="phones"required/>  * <br/> <br/>
+	   <b>Phone:</b> <input type="text" id="phone" name="phones" required/>  * <br/> <br/>
 	   Reason for inquiry: <select name="reason">
 		<option value= "catering">Catering</option>
 		<option value= "privateparty">Private Party</option>
@@ -53,7 +61,7 @@
 								<input type = "checkbox" name = "W" value = "W" unchecked/>W
 								<input type = "checkbox" name = "Th" value = "Th" unchecked/>Th
 								<input type = "checkbox" name = "F" value = "F" unchecked/>F<br/><br/>
-	   <input type="submit" name="Send Request" value="Send Request">
+	   <input type="submit" value="Send Request">
 
 	</form>
 	<section>
@@ -76,10 +84,11 @@
 
 	<style type="text/css">
 			body {
-		background-color: #2e2710;
+		background-color: #d8edab;
 		font-family:times-new-roman, helvetica, sans-serif;
-    	color: #e6f7e6;
+    	color: #522b21;
 	}
 
 	</style>
+
 	</html>
